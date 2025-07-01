@@ -1,0 +1,127 @@
+LMS_HelpManual
+This document covers help details of Library management system. The users such 
+as library staff or customers can use this manual for using LMS efficiently.
+Instructions of Library staff:
+(1)How to add new book?
+➢ Collect the necessary information: Gather all the required information about the book, 
+including the title, author, genre, description, publication date, ISBN, and any other 
+relevant details.
+➢ Create a new record: In your database or data storage system, create a new record or 
+entry to store the book's information. This can be in a structured format like a table or 
+collection.
+➢ Input the book details: Fill in the collected information into the appropriate fields of 
+the new record. Ensure that each field is correctly populated with the relevant 
+information.
+➢ Save the record: Save the new record in your database or data storage system, 
+ensuring that it is properly persisted and associated with a unique identifier.
+➢ Update any related systems: If there are any related systems or processes that need to 
+be updated, such as search indexes, recommendation algorithms, or user interfaces, 
+make the necessary updates to reflect the addition of the new book.
+(2)How to change details of book?
+➢ Identify the book: Determine the unique identifier or key that can be used to 
+locate the book record in your database. This could be an ISBN, book ID, or any 
+other unique identifier associated with the book.
+➢ Retrieve the book record: Use the unique identifier to retrieve the current book 
+record from your database or data storage system.
+➢ Update the details: Modify the relevant fields of the book record with the new 
+information you want to change. This could include the title, author, genre, 
+description, publication date, or any other details you want to update.
+ (3)How to add new customer?
+➢ Collect customer information: Gather all the necessary information about the customer. 
+This typically includes their name, contact details (such as phone number and email 
+address), address, and any other relevant details.
+➢ Assign a unique identifier: Assign a unique identifier or customer ID to the new 
+customer. This can help in distinguishing and referencing the customer's records in the 
+future.
+➢ Input customer details: Fill in the collected customer information into the appropriate 
+fields of the new record. Ensure that each field is correctly populated with the relevant 
+information.
+(4)How to remove a customer?
+➢ Identify the customer: Determine the unique identifier or key that can be used to locate the 
+customer record in your database. This could be a customer ID, username, or any other 
+unique identifier associated with the customer.
+➢ Retrieve the customer record: Use the unique identifier to retrieve the customer record 
+from your database or data storage system.
+➢ Verify the deletion: Before deleting the customer, you may want to verify the action. 
+Confirm that you have selected the correct customer to be removed.
+➢ Update related systems: If there are any related systems or processes that rely on customer 
+data, such as billing systems, order history, or user interfaces, make the necessary updates 
+to reflect the removal of the customer.
+➢ Handle any associated data: Consider any associated data or dependencies related to the 
+customer record. For example, you may need to delete or update related orders, 
+transactions, or subscriptions.
+(5) How to maintain Fine details?
+➢ Define the fine details: Determine the specific fine details that you want to maintain in 
+your system. This can include information such as the type of fine, the amount, the 
+reason for the fine, the due date, and any applicable penalties or charges.
+➢ Create a fine data structure: Design a data structure or database table to store the fine 
+details. Ensure that the structure allows for capturing all the necessary fine information, 
+including any additional attributes you may require.
+➢ Associate fines with customers or relevant entities: Determine how fines will be 
+associated with customers or other relevant entities in your system. This could involve 
+linking the fine details to a customer's record or to a specific transaction or event.
+➢ Implement fine creation and management functions: Develop functions or methods in 
+your system to create, update, and manage fines. These functions should allow for adding 
+new fines, modifying existing fine details, and retrieving fine information as needed .
+➢ Handle fine calculations and due dates: Incorporate logic to calculate fines based on 
+predefined rules or criteria. Consider factors such as due dates, grace periods, penalty 
+rates, and any other relevant conditions. Implement mechanisms to automatically 
+calculate and update fines based on these rules.
+➢ Provide notifications and reminders: Implement notification mechanisms to inform 
+customers or relevant parties about fines, their due dates, and any associated penalties or 
+charges. This can be done through email, SMS, or other communication channels.
+➢ Track fine payments and updates: Include functionality to track fine payments and update 
+the fine status accordingly. This ensures that fines are properly recorded as paid or 
+unpaid, and any necessary actions are taken based on the payment status.
+➢ Regularly review and update fine details: Periodically review and update the fine details 
+in your system. This may involve adjusting fine amounts, updating penalty rates, or 
+adding/removing fine types as needed.
+Instructions for Customers:
+(1) How to search for a book? By author, By publications, By category, By keyword
+1. Search by author: 
+o Provide a search field where users can enter the name of the author.
+o Retrieve all books in your system that match the entered author name.
+o Display the search results to the user.
+2. Search by publication: 
+o Provide a search field where users can enter the publication details, such as the 
+publisher or publication year.
+o Retrieve all books in your system that match the entered publication details.
+o Display the search results to the user.
+3. Search by category: 
+o Provide a list of categories or genres that users can select from.
+o Allow users to choose a specific category or multiple categories.
+o Retrieve all books in your system that belong to the selected categories.
+o Display the search results to the user.
+4. Search by keyword: 
+o Provide a search field where users can enter a keyword related to the book they 
+are looking for.
+o Retrieve all books in your system that have the keyword in their title, author, 
+description, or any other relevant fields.
+o Display the search results to the user.
+(2) How to rent a Book?
+1. Search for the book: Use the search functionality in your system to find the book you 
+wish to rent. You can search by title, author, category, or any other relevant criteria.
+2. Check availability: Once you have found the book, check its availability to ensure it is 
+currently available for rent. If the book is available, proceed to the next step. If it is not 
+available, you may need to explore other options or wait until it become s available.
+3. Provide necessary information: Typically, you will need to provide certain information to 
+complete the rental process. This may include your name, contact details, identification, 
+and any other required information based on the rental policies of the system or 
+organization.
+4. Agree to rental terms: Review and agree to the rental terms and conditions set by the 
+system or organization. This may include details about rental duration, fees, late return 
+policies, and any other relevant terms.
+5. Confirm the rental: Once you have provided the necessary information and agreed to the 
+rental terms, confirm your rental request. This may involve clicking a "Rent" button or 
+completing a rental form.
+6. Receive the book: After confirming the rental, you will receive the book. Depending on 
+the system or organization, this could involve picking up the physical book from a 
+designated location or accessing a digital copy of the book.
+7. Keep track of rental duration: Take note of the rental duration specified in the rental 
+terms. Ensure that you return the book within the specified timeframe to avoid any late 
+fees or penalties.
+8. Return the book: Once you have finished reading or using the book, return it according to 
+the instructions provided by the system or organization. This may involve returning it to a 
+specific location or following a return process specified in the rental te rms.
+9. Pay any applicable fees: If there are any rental fees or charges associated with the book 
+rental, make sure to settle the payment within the specified timeframe.
